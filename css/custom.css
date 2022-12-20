@@ -195,3 +195,69 @@ svg.icon {
   background-color: #3eb8be;
   border-radius: 8px;
 }
+
+
+/* 鼠标图标 */
+body {
+  cursor: url('/img/x1.cur'), auto;
+}
+a,
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled),
+button:not(:disabled) {
+  cursor: url('/img/x2.cur'), auto !important;
+}
+
+
+
+  /* bilibli番剧插件 */
+  .bangumi-active {
+    background: #dbecfe !important;
+    border-radius: 10px !important;
+  }
+  a.bangumi-tab:hover {
+    text-decoration: none !important;
+  }
+  .bangumi-button:hover {
+    background: #dbecfe !important;
+    border-radius: 10px !important;
+  }
+  a.bangumi-button.bangumi-nextpage:hover {
+    text-decoration: none !important;
+  }
+  .bangumi-button {
+    padding: 5px 10px !important;
+  }
+  
+  a.bangumi-tab {
+    padding: 5px 10px !important;
+  }
+  svg.icon.faa-tada {
+    font-size: 1.1em;
+  }
+  
+
+
+
+
+  /* 滚动条 */
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  
+  ::-moz-selection {
+    color: #fff;
+    background-color: #49b1f5;
+  }
