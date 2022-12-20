@@ -48,8 +48,8 @@
         circle at 45% 92%,
         rgba(3, 16, 50, 0.4) 0.04rem,
         transparent 0.02rem
-      ), radial-gradient(circle at 55% 98%, rgba(3, 16, 50, 0.4) 0.04rem, transparent 0.04rem), radial-gradient(circle at
-          65% 96%, rgba(3, 16, 50, 0.4) 0.06rem, transparent 0.06rem);
+      ), radial-gradient(circle at 55% 98%, rgba(3, 16, 50, 0.4) 0.04rem, transparent 0.04rem), radial-gradient(circle
+          at 65% 96%, rgba(3, 16, 50, 0.4) 0.06rem, transparent 0.06rem);
     background-position: center bottom;
     background-size: 100%;
     bottom: -1rem;
@@ -67,7 +67,7 @@
   .tip-button::before {
     border-radius: 0.25rem;
     bottom: 0;
-    content: "";
+    content: '';
     display: block;
     height: 100%;
     left: 50%;
@@ -80,7 +80,7 @@
   .tip-button::after {
     bottom: -1rem;
     color: white;
-    content: "ヾ(≧O≦)〃嗷~"; /*点击后显示的内容*/
+    content: 'ヾ(≧O≦)〃嗷~'; /*点击后显示的内容*/
     height: 110%;
     left: 0;
     opacity: 0;
@@ -164,24 +164,26 @@
   }
   .coin__front::after {
     background: rgba(0, 0, 0, 0.2);
-    content: "";
+    content: '';
     opacity: var(--front-y-multiplier);
   }
   .coin__middle {
     background: #737c99;
-    transform: translateY(calc(var(--middle-y-multiplier) * 0.3181818182rem / 2)) scaleY(var(--middle-scale-multiplier));
+    transform: translateY(calc(var(--middle-y-multiplier) * 0.3181818182rem / 2)) scaleY(
+        var(--middle-scale-multiplier)
+      );
   }
   .coin__back {
     background: radial-gradient(circle at 50% 50%, transparent 50%, rgba(115, 124, 153, 0.4) 54%, #c2cadf 54%),
-      radial-gradient(circle at 50% 40%, #fcfaf9 23%, transparent 23%), radial-gradient(circle at 50% 100%, #fcfaf9 35%, transparent
-          35%);
+      radial-gradient(circle at 50% 40%, #fcfaf9 23%, transparent 23%), radial-gradient(circle at 50% 100%, #fcfaf9
+          35%, transparent 35%);
     background-color: #8590b3;
     background-size: 100% 100%;
     transform: translateY(calc(var(--back-y-multiplier) * 0.3181818182rem / 2)) scaleY(var(--back-scale-multiplier));
   }
   .coin__back::after {
     background: rgba(0, 0, 0, 0.2);
-    content: "";
+    content: '';
     opacity: var(--back-y-multiplier);
   }
   .coin::before {
@@ -189,15 +191,17 @@
           calc(var(--shine-bg-multiplier) + 0%), #e9f4ff calc(var(--shine-bg-multiplier) + 0%), transparent calc(var(
                 --shine-bg-multiplier
               ) + 50%));
-    content: "";
+    content: '';
     opacity: var(--shine-opacity-multiplier);
-    transform: translateY(calc(var(--middle-y-multiplier) * 0.3181818182rem / -2)) scaleY(var(--middle-scale-multiplier))
+    transform: translateY(calc(var(--middle-y-multiplier) * 0.3181818182rem / -2)) scaleY(
+        var(--middle-scale-multiplier)
+      )
       rotate(calc(var(--coin-rotation-multiplier) * 1deg));
     z-index: 10;
   }
   .coin::after {
     background: #737c99;
-    content: "";
+    content: '';
     height: 0.3181818182rem;
     left: 0;
     position: absolute;
